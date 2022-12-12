@@ -1,0 +1,23 @@
+baseURL: https://eisraeli.github.io/hugo-test
+defaultContentLanguage: he
+languages:
+  he:
+    title: אתר בדיקה
+    weight: 1
+    languagedirection: rtl
+theme: PaperMod
+menu:
+  main:
+  - name: אופציה1
+    url: /
+  - name: אופציה2
+    url: /
+  - name: אופציה 3
+    url: /
+params:
+  author: סיילם
+  description: Moo
+  defaultTheme: dark
+taxonomies:
+  category: categories
+  tag: tags
